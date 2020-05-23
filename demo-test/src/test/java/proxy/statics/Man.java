@@ -1,6 +1,6 @@
-package cn.com.xbed.test.proxy.statics;
+package proxy.statics;
 
-import cn.com.xbed.test.proxy.statics.IPerson;
+import proxy.statics.IPerson;
 
 /**
  * @Date 2020/1/3 16:16

@@ -3,7 +3,7 @@
 //// (powered by Fernflower decompiler)
 ////
 //
-//package cn.com.xbed.test.proxy.cglib;
+//package proxy.cglib;
 //
 //import java.lang.ref.WeakReference;
 //import java.lang.reflect.Constructor;

@@ -1,4 +1,4 @@
-package cn.com.xbed.test.proxy.cglib;
+package proxy.cglib;
 
 import org.junit.Test;
 import org.springframework.asm.Type;
