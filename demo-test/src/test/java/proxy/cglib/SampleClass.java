@@ -1,8 +1,6 @@
-package cn.com.xbed.test.proxy.cglib;
+package proxy.cglib;
 
-import cn.com.xbed.test.aop.MyAop;
-import org.junit.Assert;
-import org.junit.Test;
+import aop.MyAop;
 import org.springframework.cglib.beans.BeanGenerator;
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;
@@ -41,7 +39,6 @@ public class SampleClass {
     }
 
 
-    @Test
     public void testBeanGenerator() throws Exception {
         BeanGenerator beanGenerator = new BeanGenerator();
         beanGenerator.addProperty("value", String.class);

@@ -1,4 +1,4 @@
-package cn.com.xbed.test.proxy.cglib;
+package proxy.cglib;
 
 import org.junit.Test;
 import org.springframework.cglib.core.DebuggingClassWriter;
@@ -46,7 +46,7 @@ public class TestGenerateClass {
         enhancer.setCallbacks(callbacks);
         enhancer.create();
         byte[] var4 = enhancer.getStrategy().generate(enhancer);
-        String var0="D:\\workspace\\account\\web\\src\\test\\cn.com.xbed.test.proxy.cglib.proxy$";
+        String var0="D:\\workspace\\account\\web\\src\\test\\proxy.cglib.proxy$";
 
         AccessController.doPrivileged(new PrivilegedAction<Void>() {
             public Void run() {

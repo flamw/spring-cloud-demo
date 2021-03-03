@@ -1,11 +1,9 @@
-package cn.com.xbed.test.proxy.dynamic;
+package proxy.dynamic;
 
-import cn.com.xbed.dao.mapper.AccountBillMapper;
-import cn.com.xbed.test.proxy.statics.IPerson;
-import cn.com.xbed.test.proxy.statics.Man;
+import proxy.statics.IPerson;
+import proxy.statics.Man;
 import org.apache.ibatis.binding.MapperMethod;
 import org.apache.ibatis.binding.MapperProxy;
-import org.apache.xmlbeans.impl.xb.xmlconfig.Extensionconfig;
 import org.junit.Test;
 
 import java.lang.reflect.*;

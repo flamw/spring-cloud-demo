@@ -1,4 +1,4 @@
-package cn.com.xbed.test.proxy.statics;
+package proxy.statics;
 
 /**
  * @Date 2020/1/3 16:19

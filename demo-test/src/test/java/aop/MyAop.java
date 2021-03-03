@@ -1,4 +1,4 @@
-package cn.com.xbed.test.aop;
+package aop;
 
 public class MyAop {
 

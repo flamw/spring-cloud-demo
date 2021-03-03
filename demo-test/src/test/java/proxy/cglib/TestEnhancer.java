@@ -1,6 +1,6 @@
-package cn.com.xbed.test.proxy.cglib;
+package proxy.cglib;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.springframework.asm.Type;
 import org.springframework.cglib.core.*;
 import org.springframework.cglib.proxy.Callback;

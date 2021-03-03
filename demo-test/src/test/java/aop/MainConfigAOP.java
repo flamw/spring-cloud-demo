@@ -1,4 +1,4 @@
-package cn.com.xbed.test.aop;
+package aop;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

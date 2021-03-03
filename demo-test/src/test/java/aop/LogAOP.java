@@ -1,4 +1,4 @@
-package cn.com.xbed.test.aop;
+package aop;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.*;
@@ -8,7 +8,7 @@ import java.util.Arrays;
 @Aspect//告诉spring这是一个切面类
 public class LogAOP {
 
-    @Pointcut(value = "execution(public * cn.com.xbed.test.aop.MyAop.*(..))")
+    @Pointcut(value = "execution(public * aop.MyAop.*(..))")
     public void point() {
     }
 

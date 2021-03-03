@@ -1,6 +1,5 @@
-package cn.com.xbed.test.proxy.mybatis;
+package proxy.mybatis;
 
-import cn.com.xbed.dao.mapper.AccountBillMapper;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -24,7 +23,7 @@ public class TestMybatis {
         SqlSession session = sqlSessionFactory.openSession();
         try {
             //获取Mapper
-            AccountBillMapper mapper = session.getMapper(AccountBillMapper.class);
+//            AccountBillMapper mapper = session.getMapper(AccountBillMapper.class);
         } finally {
             session.close();
         }
