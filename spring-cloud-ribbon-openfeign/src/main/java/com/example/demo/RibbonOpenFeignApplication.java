@@ -16,7 +16,7 @@ import org.springframework.web.client.RestTemplate;
 @EnableDiscoveryClient
 @EnableFeignClients
 @EnableHystrix
-//@EnableZuulProxy
+@EnableZuulProxy
 public class RibbonOpenFeignApplication {
 
     public static void main(String[] args) {
