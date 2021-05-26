@@ -1,11 +1,13 @@
 package proxy.dynamic;
 
+<<<<<<< HEAD
 import cn.com.xbed.dao.mapper.AccountBillMapper;
+=======
+>>>>>>> 4ac38a23bc32e97a5a24902a75646c7a9ed2480c
 import proxy.statics.IPerson;
 import proxy.statics.Man;
 import org.apache.ibatis.binding.MapperMethod;
 import org.apache.ibatis.binding.MapperProxy;
-import org.apache.xmlbeans.impl.xb.xmlconfig.Extensionconfig;
 import org.junit.Test;
 
 import java.lang.reflect.*;

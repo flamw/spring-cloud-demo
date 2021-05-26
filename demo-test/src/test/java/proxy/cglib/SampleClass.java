@@ -1,8 +1,11 @@
 package proxy.cglib;
 
 import aop.MyAop;
+<<<<<<< HEAD
 import org.junit.Assert;
 import org.junit.Test;
+=======
+>>>>>>> 4ac38a23bc32e97a5a24902a75646c7a9ed2480c
 import org.springframework.cglib.beans.BeanGenerator;
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;
@@ -41,7 +44,6 @@ public class SampleClass {
     }
 
 
-    @Test
     public void testBeanGenerator() throws Exception {
         BeanGenerator beanGenerator = new BeanGenerator();
         beanGenerator.addProperty("value", String.class);

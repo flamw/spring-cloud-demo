@@ -1,6 +1,5 @@
 package proxy.cglib;
 
-import com.alibaba.fastjson.JSON;
 import org.junit.Test;
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;
@@ -38,7 +37,6 @@ public class TestProxy {
         }
         System.out.println(a.getClass().getDeclaringClass());
         System.out.println(a.getClass().getEnclosingClass());
-        System.out.println(JSON.toJSONString(a.getClass().getDeclaredClasses()));
 
         try {
             Class c=Class.forName(a.getClass().getCanonicalName());
