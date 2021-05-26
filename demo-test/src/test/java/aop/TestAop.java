@@ -1,4 +1,4 @@
-package cn.com.xbed.test.aop;
+package aop;
 
 import org.aspectj.lang.annotation.Aspect;
 import org.junit.Test;

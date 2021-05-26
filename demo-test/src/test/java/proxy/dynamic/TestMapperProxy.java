@@ -1,7 +1,7 @@
-package cn.com.xbed.test.proxy.dynamic;
+package proxy.dynamic;
 
 import cn.com.xbed.dao.mapper.AccountBillMapper;
-import cn.com.xbed.test.proxy.statics.IPerson;
+import proxy.statics.IPerson;
 import org.apache.ibatis.binding.MapperMethod;
 import org.apache.ibatis.binding.MapperProxy;
 import org.junit.Test;
@@ -60,7 +60,7 @@ public class TestMapperProxy {
 
     @Test
     public void testProxyGenerator() throws UnsupportedEncodingException {
-        String var0="D:\\cn.com.xbed.test.proxy.dynamic.Proxy";
+        String var0="D:\\proxy.dynamic.Proxy";
         byte[] var4 = ProxyGenerator.generateProxyClass(var0, new Class[]{AccountBillMapper.class}, 17);
 //        ProxyGenerator var3 = new ProxyGenerator(var0, new Class[]{AccountBillMapper.class}, 17);
 

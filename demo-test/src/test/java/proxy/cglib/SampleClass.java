@@ -1,6 +1,6 @@
-package cn.com.xbed.test.proxy.cglib;
+package proxy.cglib;
 
-import cn.com.xbed.test.aop.MyAop;
+import aop.MyAop;
 import org.junit.Assert;
 import org.junit.Test;
 import org.springframework.cglib.beans.BeanGenerator;

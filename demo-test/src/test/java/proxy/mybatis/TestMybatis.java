@@ -1,4 +1,4 @@
-package cn.com.xbed.test.proxy.mybatis;
+package proxy.mybatis;
 
 import cn.com.xbed.dao.mapper.AccountBillMapper;
 import org.apache.ibatis.io.Resources;

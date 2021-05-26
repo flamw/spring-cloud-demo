@@ -1,4 +1,4 @@
-package cn.com.xbed.test.proxy.cglib;
+package proxy.cglib;
 
 import com.alibaba.fastjson.JSON;
 import org.junit.Test;

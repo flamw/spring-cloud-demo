@@ -32,9 +32,9 @@ public class EurekaClientApplication {
 
     @RequestMapping("/hi")
     public String home(@RequestParam(value = "name", defaultValue = "forezp") String name) {
-        return restTemplate.getForObject("http://spring-cloud/hi?name="+name+",from:"+port,String.class);
+//        return restTemplate.getForObject("http://spring-cloud/hi?name="+name+",from:"+port,String.class);
 
-//        return "hi " + name + " ,i am from port:" + port;
+        return "hi " + name + " ,i am from port:" + port;
     }
 
     @RequestMapping("/hi2")

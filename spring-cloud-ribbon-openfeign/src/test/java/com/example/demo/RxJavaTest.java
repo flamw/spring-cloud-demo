@@ -8,6 +8,8 @@ import io.reactivex.schedulers.Schedulers;
 import org.junit.Test;
 import sun.rmi.runtime.Log;
 
+import java.util.concurrent.ConcurrentHashMap;
+
 
 /**
  * @Date 2020/5/5 11:33
@@ -17,6 +19,9 @@ public class RxJavaTest {
 
     @Test
     public void test(){
+        ConcurrentHashMap hashMap = new ConcurrentHashMap();
+        hashMap.put("aa", 11);
+        hashMap.put("aa", 11);
         Observable.create(new ObservableOnSubscribe<String>() {
             @Override
             public void subscribe(ObservableEmitter<String> emitter) throws Exception {
@@ -33,6 +38,7 @@ public class RxJavaTest {
                 .subscribe(new Observer<String>() {
                     @Override
                     public void onSubscribe(Disposable d) {
+                        System.out.println("##D:"+d.toString());
                     }
 
                     @Override
@@ -43,10 +49,13 @@ public class RxJavaTest {
 
                     @Override
                     public void onError(Throwable e) {
+                        System.out.println("onError");
+
                     }
 
                     @Override
                     public void onComplete() {
+                        System.out.println("onComplete");
                     }
                 });
     }
